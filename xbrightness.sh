@@ -7,11 +7,6 @@
 
 #BRIGHTNESS=`xrandr --verbose | grep -m 1 -i brightness | cut -f2 -d ' '`
 
-# TODO 
-# Récupérer le résultat de `xrandr --verbose | grep -m 1 -i gamma` pour chaque niveau
-# Créer liste GAMMA_INV
-# Dans xbrightness() faire une inversion 
-
 GAMMA[0]="0.77442176:0.85453121:1.00000000"
 GAMMA[1]="0.78988728:0.86491137:1.00000000" # 10000K NighLight highest value (cold/blue)
 GAMMA[2]="0.80753191:0.87667891:1.00000000"
