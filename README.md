@@ -2,6 +2,10 @@
 
 Adjust screen brightness and colour temperature at your will, usefull to set keyboard shortcuts.
 
+## Requirement
+
+Your gnome session must be Xorg. To quicky check if you're unluckily running on Wayland, press alt+F2, then type 'r', then Enter. If it doesn't work, please switch to Xorg.
+
 ## Initialisation
 
 In your home config directory `~/.config/xbrightness`:
